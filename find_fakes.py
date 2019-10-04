@@ -1,3 +1,7 @@
+# Podium Coding Challenge
+# Kevin Tang
+# 10/3/2019
+
 import requests
 from bs4 import BeautifulSoup
 import nltk
