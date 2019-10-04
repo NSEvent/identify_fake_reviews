@@ -13,7 +13,9 @@ Your mission, should you choose to accept it, is to write a tool that:
 - 3 outputs these three reviews to the console, in order of severity
 
 ## "Overly positive" criteria
-I chose to use VADER sentiment analysis for this task because it works well with reviews, does not require training data, and is fast enough for our purposes. VADER sentiment analysis gives us a score for positive sentiment, which is the quantity I used for finding overly positive reviews. 
+VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media.
+
+I chose to use VADER sentiment analysis for this task because it works well with online reviews, does not require training data, and is fast enough for our purposes. VADER sentiment analysis gives us a score for positive sentiment, which is the quantity I used for finding overly positive reviews. 
 
 This program uses the average positive sentiment per sentence for each review to rank reviews.
 
