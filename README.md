@@ -1,4 +1,4 @@
-# Podium Coding Challenge
+# Coding Challenge
 “A Dealer For the People” by Kevin Tang
 
 (Tested using Python 3.5.2)
